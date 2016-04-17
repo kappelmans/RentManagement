@@ -16,7 +16,7 @@ MAIN_PAGE_HTML = """\
 <html>
   <body>
     <form action="/gwy/test_submitreading" method="post">
-<div><p>Gateway Serial</p><input type="text" name="gateway_serial"></div>
+<div><p>Gateway 1111111111111111111 Serial</p><input type="text" name="gateway_serial"></div>
 <div><p>ReadOut</p><input type="text" name="readout"></div>
       <div>
       <input type="submit" value="POST RESULT">
