@@ -27,7 +27,7 @@ MAIN_PAGE_HTML = """\
 </html>
 """
 
-class DoUpload(BaseRequestHandler):
+class DoUpload(webapp2.RequestHandler):
   def post(self):
       fl = self.request.get('myfile')
       for contr in Contract.all():
